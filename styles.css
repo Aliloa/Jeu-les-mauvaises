@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'stand_rock';
+    src: url('police/stand-rock-font/Standrock-gxGP4.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'made_soulmaze';
+    src: url('police/made_soulmaze/MADE\ Soulmaze\ PERSONAL\ USE.otf') format('opentype');
+}
+
+body {
+    background-color: #CDDD20;
+    color: #28282D;
+    text-transform: uppercase;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    font-family: 'stand_rock', sans-serif;
+    position: absolute;
+    margin: 0;
+}
+
+.attend {
+    transform: rotate(-15deg);
+    left: 10%;
+    top: 9%;
+    font-size: 70px;
+}
+
+.arrete {
+    transform: rotate(-4.03deg);
+    left: 20px;
+    top: 35%;
+    font-size: 50px;
+}
+
+.proposer {
+    transform: rotate(9.3deg);
+    right: 3%;
+    top: 10%;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.titre {
+    position: relative;
+}
+
+.ponctuation {
+    position: absolute;
+    bottom: 25px;
+    right: -33%;
+}
+
+.smiley {
+    mix-blend-mode: darken;
+}
+
+h1 {
+    font-family: 'made_soulmaze', sans-serif ;
+    font-size: 90px; /* font-size en 90px ou 5.625rem*/
+    margin: 0;
+}
+span {
+    position: relative;
+}
+.svg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+h2 {
+    font-family: 'stand_rock', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    text-align: end;
+    letter-spacing: 1px;
+}
+
+.goblet img {
+    mix-blend-mode: multiply;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.goblet {
+    position: relative;
+}
+.goblets {
+    display: flex;
+}
+
+.goblet p {
+    display: none;
+    font-size: 20px;
+    background-color: #28282D;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 100px / 50px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.goblet img:hover {
+    scale: 1.1;
+}
+
+@media (max-width: 1400px) {
+    .arrete {
+        font-size: 40px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .attend {
+    left: 10px;
+    top: 30px;
+    font-size: 70px;
+}
+
+.arrete {
+    left: 5px;
+}
+
+.proposer {
+    right: 10px;
+}
+  }
