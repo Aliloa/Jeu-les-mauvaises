@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'stand_rock';
-    src: url('police/stand-rock-font/Standrock-gxGP4.ttf') format('truetype');
+    src: url('police/stand-rock-font/misc/StandRock\ PERSONAL\ USE\ ONLY!-d65c.woff') format('woff');
 }
 
 @font-face {
@@ -35,7 +35,7 @@ p {
 .arrete {
     transform: rotate(-4.03deg);
     left: 20px;
-    top: 35%;
+    top: 45%;
     font-size: 50px;
 }
 
@@ -45,6 +45,7 @@ p {
     top: 10%;
     font-size: 40px;
     letter-spacing: 4px;
+    min-width: 540px;
 }
 
 .titre {
@@ -59,6 +60,7 @@ p {
 
 .smiley {
     mix-blend-mode: darken;
+    margin-right: 90px;
 }
 
 h1 {
