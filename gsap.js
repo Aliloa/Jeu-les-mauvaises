@@ -66,8 +66,6 @@ document.querySelector(".un").addEventListener("mouseleave", () => {
     gsap.to(".un", { scale: 1, duration: 0.1 });
 });
 
-// Ajouter le click
-
 // Désactiver les boutons avant la fin de l'animation
 document.querySelector(".deux").style.pointerEvents = "none";
 document.querySelector(".un").style.pointerEvents = "none";
@@ -78,6 +76,7 @@ setTimeout(() => {
     document.querySelector(".un").style.pointerEvents = "auto";
 }, 3000);
 
+// Ajouter le click
 document.querySelector(".deux").addEventListener("click", () => {
     gsap.to(".deux", { y: -30, duration: 0.2, ease: "power4.inOut" });
     document.querySelector(".oui p").style.display = "block";
